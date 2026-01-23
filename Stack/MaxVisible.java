@@ -1,6 +1,8 @@
 import java.io.*;
 import java.util.ArrayList;
 import java.util.*;
+
+//Maximum people visible in a line 
 class MaxVisible
 {
     static int maxVisible(int arr[])
