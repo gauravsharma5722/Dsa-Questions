@@ -36,17 +36,17 @@ public class BuySellStock {
 
     public static void main(String[] args) {
 
-    Scanner sc=new Scanner(System.in);
-        String[] s=sc.nextLine().split(" ");
-        int n=s.length;
-        int[] arr=new int[n];
-        for(int i=0;i<n;i++)
-        {
-            arr[i]=Integer.parseInt(s[i]);
-        }
+        Scanner sc=new Scanner(System.in);
+            String[] s=sc.nextLine().split(" ");
+            int n=s.length;
+            int[] arr=new int[n];
+            for(int i=0;i<n;i++)
+            {
+                arr[i]=Integer.parseInt(s[i]);
+            }
 
 
-        System.out.println("Maximum Profit is: " + maxProfit(arr));
+            System.out.println("Maximum Profit is: " + maxProfit(arr));
     
     }
 
